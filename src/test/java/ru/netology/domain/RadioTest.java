@@ -42,7 +42,7 @@ class RadioTest {
     @Test
     public void setBelowBorderCurrentRadio() {
         Radio RadioObject = new Radio();
-        RadioObject.setCurrentRadio(-1);
+        RadioObject.setCurrentRadio(-2);
         assertEquals(9, RadioObject.getCurrentRadio());
     }
 
